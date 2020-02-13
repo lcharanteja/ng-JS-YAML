@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@angular/yaml2json": [
+        "dist/angular/yaml2json/angular-yaml2json",
+        "dist/angular/yaml2json"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
